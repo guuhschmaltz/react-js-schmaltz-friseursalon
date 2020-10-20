@@ -1,0 +1,25 @@
+:root {
+  --branco: rgba(255, 255, 255, 0.986);
+  --cinza-escuro: #2e2c2c;
+  --cinza-claro: #f7f4f4f1;
+  --cinza-medio: #D9D9D9;
+  --preto: #181818;
+
+  --services-cartoons-barber: #f7f4f4f1;
+  --services-cartoons-hair: #2e2c2c;
+  --services-cartoons-complete: #f7f4f4f1;
+
+  --fonte-titulo: 'Fjalla One', sans-serif;
+}
+
+body,
+input,
+button,
+textarea {
+  font-family: 'Oxygen', sans-serif;
+}
+
+.container {
+  padding-right: 6%;
+  padding-left: 6%;
+}

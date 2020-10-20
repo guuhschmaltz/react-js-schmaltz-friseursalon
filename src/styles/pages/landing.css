@@ -1,0 +1,240 @@
+.about{
+  display: flex;
+  color: white;
+  background: var(--cinza-escuro);
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.about__title {
+  font-family: var(--fonte-titulo);
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 2.2rem;
+  font-weight: 600;
+}
+
+.about__description{
+  text-align: left;
+  margin: 2.2rem 0;
+}
+
+.app{
+  display: flex;
+  color: var(--cinza-escuro);
+  background: var(--branco);
+  flex-direction: column;
+}
+
+.app__description{
+  text-align: center;
+  margin: 2.2rem 0;
+}
+
+.app__download {
+  margin: 1rem;
+  background: var(--cinza-escuro);
+  color: var(--cinza-claro);
+  border: 0;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  font: 700 1.4rem;
+  width: 12rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.app__download img{
+  display: flex;
+  width: 4.2rem;
+  height: 4.2rem;
+  margin: 1rem 1rem;
+}
+
+.app__platforms{
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: .8px;
+  margin-bottom: 2.2rem;
+  flex-direction: column;
+  justify-content: space-around;
+  background: var(--branco);
+  color: var(--cinza-escuro);
+}
+
+.app__platforms li a p{
+  display: flex;
+  margin-left: 1rem;
+}
+
+.app__title {
+  font-family: var(--fonte-titulo);
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 2.2rem;
+  font-weight: 600;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner__img {
+  background: url('../../images/bg-barbearia.jpg') no-repeat center / cover;
+  height: 250px;
+}
+
+.banner__title {
+  color: var(--cinza-claro);
+  font-family: var(--fonte-titulo);
+  position: absolute;
+  left: 50%;
+  text-transform: uppercase;
+  text-shadow: 4px 4px 4px var(--preto);
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  font-weight: 700;
+}
+
+.location{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url('../../images/bg-listras.jpg');
+}
+
+.location__address{
+  margin-top: 1.6rem;
+  margin-left: 2.2rem;
+  margin-right: 2.2rem;
+}
+
+.location__description{
+  margin-top: 1rem;
+  margin-left: 2.2rem;
+  margin-right: 2.2rem;
+  margin-bottom: 2.2rem;
+}
+
+.location__map{
+  margin-top: 1.6rem;
+  margin-left: 2.2rem;
+  margin-right: 2.2rem;
+  height: 34vh;
+  display: flex;
+}
+
+.location__panel{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-top: 2.2rem;
+  margin-bottom: 2.2rem;
+  background: var(--cinza-escuro);
+  color: var(--branco);
+}
+
+.location__title{
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2.2rem;
+  font-family: var(--fonte-titulo);
+  font-weight: 600;
+  }
+  
+  .schedule{
+    background: var(--cinza-escuro);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.schedule__table table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+.schedule__table th{
+  background: white;
+  color: black;
+  font-weight: 700;
+}
+
+.schedule__table {
+  margin: 2.2rem;
+  font-size: .8rem;
+  border-radius: 10px;
+  width: 100%;
+
+}
+
+.schedule__title{
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2.2rem;
+  font-family: var(--fonte-titulo);
+  font-weight: 600;
+  }
+
+
+
+@media screen and (min-width: 0) {
+  .about__title {
+    font-size: 1.6rem;
+}
+  .app__title {
+  font-size: 1.6rem;
+}
+  .banner__title {
+      font-size: 2.2rem;
+  }
+
+  .location__title {
+    font-size: 1.6rem;
+}
+
+.schedule__title {
+  font-size: 1.6rem;
+}
+
+}
+@media screen and (min-width: 768px) {
+  .about__title {
+    font-size: 2.2rem;
+}
+  .app__download {
+  margin: 2rem 1rem;
+}
+  .app__platforms {
+  flex-direction: row;
+}
+  .app__title {
+  font-size: 2.2rem;
+}
+  .banner__title {
+      font-size: 2.4rem;
+  }
+
+  .location__title {
+    font-size: 2.2rem;
+}
+
+.schedule__title {
+  font-size: 2.2rem;
+}
+}
+
+@media screen and (min-width: 1024px) {
+  .schedule__table {
+      font-size: 1rem;
+  }
+}
