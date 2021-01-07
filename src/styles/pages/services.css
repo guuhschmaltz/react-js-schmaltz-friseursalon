@@ -13,10 +13,9 @@
 }
 
 .cartoons__button:hover{
-  transition: .2s;
+  transition: .5s;
   background-color: var(--cinza-medio);
   color: var(--preto);
-  font-size: 1.2rem;
 }
 
 .cartoons__img{
@@ -66,10 +65,14 @@
 }
 
 .services__cartoons{
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .services__description{
+  max-width: 1280px;
   margin-top: 1.6rem;
   margin-left: 2.2rem;
   margin-right: 2.2rem;
@@ -116,6 +119,7 @@
 
   .services_title {
     font-size: 2.2rem;
+    
 }
 }
 

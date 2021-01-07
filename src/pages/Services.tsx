@@ -15,10 +15,10 @@ export default function Services() {
           <h2 className="services__title">Catálogo</h2>
             <p className="services__description">A Schmaltz Friseursalon é a barbearia perfeita para você.
                 Focada em estética,a Confraria conta com tudo que o homem moderno precisa.
-                Atendemos todos tipos de clientes e gêneros de forma com que todos saiam satisfeitos
-            </p>
+                Atendemos todos tipos de clientes e gêneros de forma com que todos saiam satisfeitos.</p>
             <p className="services__description"> Um ambiente confortável,
-              descontraído e em preservar a virilidade masculina, com cuidados para todos os estilos de barba e cabelo,
+              descontraído e em preservar a virilidade masculina, 
+              com cuidados para todos os estilos de barba e cabelo,
               Tratamos nosso cliente de uma forma amigável e descontraida.</p>
                 <ul className="services__cartoons">
                   <li className="cartoons cartoons--hair">

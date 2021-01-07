@@ -2,9 +2,11 @@ import React from 'react';
 import whatsAppImg from '../images/whatsapp.png';
 import playStoreImg from '../images/playstore.png';
 import appStoreImg from '../images/appstore.png';
+
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import '../styles/pages/landing.css';
+
 
 
 export default function Landing() {
@@ -19,21 +21,33 @@ export default function Landing() {
             <h3 className="about__title">Sobre</h3>
             <p className="about__description">
                 Com o propósito de promover um atendimento com excelência e qualidade 
-                resgatando a virilidade masculina, Gustavo Schmaltz criou a 
-                <strong>Schmaltz Friseursalon</strong>, a melhor barbearia do Brasil.
-                Um lugar agradável direcionado aos homens servindo serviços 
-                tradicionais como cortes de cabelo, barba e bigode</p>
+                resgatando a virilidade masculina, Gustavo Schmaltz criou a  
+                <strong> Schmaltz Friseursalon</strong>, a melhor barbearia do Brasil.
+            </p>
+            <p className="about__description">
+              Local limpo e organizado com profissionais atenciosos que se importam com
+              a qualidade de seu serviço.
+            </p>
+            <p className="about__description">
+              Um lugar agradável direcionado aos homens servindo serviços 
+              tradicionais como cortes de cabelo, barba e bigode.
+            </p>
         </section>
         <section className="location container">
             <div className="location__panel">
             <h4 className="location__title">Venha nos visitar</h4>
             
             <address className="location__address">
-              Rua do Corte bem Feito, 0987<br/>
-              Cotia, São Paulo
+            <div className="location__map">
+            Rua do Corte bem Feito, 0987<br/>
+            Cotia, São Paulo
+            </div>
             </address>
             <p className="location__description">Nosso estabelecimento estará de portas abertas,
              estamos a sua espera
+             <a href="https://www.google.com.br/maps/place/R.+da+Fraternidade,+197+-+Jardim+Cotia,+Cotia+-+SP,+06703-460/@-23.5967367,-46.9132735,17z/data=!3m1!4b1!4m5!3m4!1s0x94cf0750470278d5:0x2fbaa02c9a0228e7!8m2!3d-23.5967367!4d-46.9110848">
+              <strong className="location__link">Ver no mapa</strong>
+              </a>
              </p>
             </div>
         </section>

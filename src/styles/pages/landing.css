@@ -1,7 +1,7 @@
 .about{
   display: flex;
   color: white;
-  background: var(--cinza-escuro);
+  background: var(--preto);
   flex-direction: column;
   flex-wrap: wrap;
 }
@@ -16,7 +16,15 @@
 
 .about__description{
   text-align: left;
-  margin: 2.2rem 0;
+  margin: 2.2rem 0 1rem 0;
+}
+
+.about__description + .about__description{
+  margin: 1rem 0;
+}
+
+.about__description:last-child{
+  margin-bottom: 2.2rem;
 }
 
 .app{
@@ -59,7 +67,7 @@
   border-radius: .8px;
   margin-bottom: 2.2rem;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   background: var(--branco);
   color: var(--cinza-escuro);
 }
@@ -120,12 +128,11 @@
   margin-bottom: 2.2rem;
 }
 
-.location__map{
-  margin-top: 1.6rem;
-  margin-left: 2.2rem;
-  margin-right: 2.2rem;
-  height: 34vh;
-  display: flex;
+.location__link{
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 1rem 0;
 }
 
 .location__panel{
@@ -149,7 +156,7 @@
   }
   
   .schedule{
-    background: var(--cinza-escuro);
+    background: var(--preto);
     color: white;
     display: flex;
     flex-direction: column;
@@ -161,6 +168,7 @@
 .schedule__table table, th, td {
   border: 1px solid white;
   border-collapse: collapse;
+  background: var(--cinza-escuro);
 }
 
 .schedule__table th{
@@ -174,7 +182,7 @@
   font-size: .8rem;
   border-radius: 10px;
   width: 100%;
-
+  border-radius: 0 0 8px 8px;
 }
 
 .schedule__title{
@@ -184,8 +192,6 @@
   font-family: var(--fonte-titulo);
   font-weight: 600;
   }
-
-
 
 @media screen and (min-width: 0) {
   .about__title {

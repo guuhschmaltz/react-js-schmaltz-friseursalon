@@ -24,6 +24,7 @@
 }
 
 .footer__logo {
+  margin-top: 1rem;
   width: 50px;
 }
 
@@ -40,14 +41,10 @@
 }
 
 .footer__copyright{
-  text-align: center;
   font-size: .8rem;
-
-
-  display: block;
-  margin-right: 1rem;
-  margin-bottom: 1.25rem;
-  margin-left: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (min-width: 1024px) {
@@ -63,7 +60,6 @@
       margin-bottom: 1rem;
       width: 150px;
       order: 1;
-
   }
 
   .footer__link {
