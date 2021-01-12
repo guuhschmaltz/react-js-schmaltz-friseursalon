@@ -151,7 +151,7 @@
 .form__label {
   font-size: .8rem;
 }
-.form__textarea {
+.form__inputarea {
   font-size: 1rem;
 }
 .form__title {
@@ -168,7 +168,7 @@
   .form__label {
   font-size: 1rem;
 }
-  .form__textarea {
+  .form__inputarea {
   font-size: 1.2rem;
 }
   .form_title {
